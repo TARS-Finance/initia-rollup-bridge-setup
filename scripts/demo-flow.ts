@@ -42,7 +42,7 @@ async function main() {
   const merchantInitAddress = need('MERCHANT_INIT_ADDRESS');
   const usdcErc20Address = need('USDC_ERC20_ADDRESS') as `0x${string}`;
   const jsonRpcUrl = need('ROLLUP_JSON_RPC_URL');
-  const stackerApiUrl = process.env.STACKER_API_URL ?? 'http://localhost:3000';
+  const stackerApiUrl = process.env.STACKER_API_URL ?? 'http://localhost:3010';
   const evmChainId = await readEvmChainId(jsonRpcUrl);
 
   const chain = defineChain({

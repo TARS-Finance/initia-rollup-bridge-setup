@@ -146,7 +146,7 @@ async function main() {
   const rollupRpcUrl = need('ROLLUP_RPC_URL');
   const rollupRestUrl = need('ROLLUP_REST_URL');
   const rollupJsonRpcUrl = need('ROLLUP_JSON_RPC_URL');
-  const stackerApiUrl = process.env.STACKER_API_URL ?? 'http://localhost:3000';
+  const stackerApiUrl = process.env.STACKER_API_URL ?? 'http://localhost:3010';
 
   let resolved = null;
 
