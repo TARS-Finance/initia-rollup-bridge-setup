@@ -6,7 +6,9 @@
   "scripts": {
     "preflight": "bash scripts/preflight.sh",
     "install-tools": "bash scripts/install-tools.sh",
+    "generate-system-keys": "tsx scripts/generate-system-keys.ts",
     "derive-addresses": "tsx scripts/derive-addresses.ts",
+    "regen-launch-config": "bash scripts/regen-launch-config.sh",
     "launch": "bash scripts/launch-rollup.sh",
     "seed-bridge": "tsx scripts/seed-bridge-deposit.ts",
     "redeploy-htlc": "tsx scripts/redeploy-htlc.ts",
